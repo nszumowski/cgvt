@@ -1,0 +1,29 @@
+/*
+ Theme Name:   Common Good Vermont
+ Theme URI:    https://commongoodvt.org
+ Description:  Common Good Vermont, a GeneratePress child theme
+ Author:       Common Good Vermont
+ Author URI:   https://commongoodvt.org
+ Template:     generatepress
+ Version:      1.0
+*/
+
+/* HEADER */
+
+.site-header {
+    border-bottom: 1px solid #d9ecf1;
+}
+
+/* CONTENT */
+
+/* SIDEBAR */
+
+/* FOOTER */
+
+.site-footer {
+    border-top: 1px solid #ddd;
+}
+
+.footer-widget-1 {
+    text-align: center;
+}
