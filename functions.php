@@ -12,3 +12,11 @@ function cgvt_enqueue_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'cgvt_enqueue_scripts', 100 );
+
+/**
+ * Enqueue Font Awesome.
+ */
+function cgvt_load_font_awesome() {
+	wp_enqueue_style( 'font-awesome', '//pro.fontawesome.com/releases/v5.2.0/css/all.css', array(), '5.1.0' );
+}
+add_action( 'wp_enqueue_scripts', 'cgvt_load_font_awesome' );

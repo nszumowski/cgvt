@@ -14,6 +14,11 @@
     border-bottom: 1px solid #d9ecf1;
 }
 
+.site-header .header-image {
+    vertical-align: middle;
+    margin-top: 9px;
+}
+
 /* CONTENT */
 
 /* SIDEBAR */
@@ -24,6 +29,50 @@
     border-top: 1px solid #ddd;
 }
 
+.footer-widgets {
+    padding-bottom: 0;
+}
+
 .footer-widget-1 {
     text-align: center;
+}
+
+#menu-footer-navigation li {
+    display: inline-block;
+}
+
+#menu-footer-navigation a {
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.footer-contact li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer-contact li .fa,
+.footer-contact li .fas {
+    font-size: 12px;
+}
+
+.site-footer .logo {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    border: 0;
+    display: inline-block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 200px;
+    height: 55px;
+}
+
+.site-footer .logo.national-council-of-nonprofits-logo {
+    background-image: url("/wp-content/themes/cgvt/img/national-council-of-nonprofits-proud-nonprofit-ally-member-logo-200x55.png");
+}
+
+.site-info {
+    padding-bottom: 40px;
 }
